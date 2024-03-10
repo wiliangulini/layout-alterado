@@ -1,0 +1,187 @@
+.early .anime {
+    
+    background-color: black;
+}
+.container-fluid .menu {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;   
+}
+
+.container-fluid .menu li {
+    padding: 5px;
+}
+.container-fluid .navbar-nav .menu li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.container-fluid .navbar-nav .menu li a {
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+
+.container-fluid .row.cor .submenu {
+    width: 170px;
+    height: auto;
+    transition: 0.5s;
+}
+
+.container-fluid .row.cor .submenu .submenuitem {
+    color: #fe5d89;
+    background-color: white;
+    text-align: left;
+    padding: 8px 15px 8px 15px;
+}
+.container-fluid .row.cor .submenu .submenuitem:hover {
+    color: white;
+    background-color: #fe5d89;
+    
+}
+.container-fluid .row.cor .submenu.home {
+    position: absolute;
+    top:80px;
+    left: 300px;
+}
+.container-fluid .row.cor .submenu.blog {
+    position: absolute;
+    top: 80px;
+}
+.container-fluid .submenu a:hover {
+    text-decoration: none;
+}
+.container-fluid .menu button {
+    margin-left: 20px;
+    padding: 0px 30px;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid white;
+    color: #fe5d89;
+    text-align: center;
+    font-weight: 501;
+    transition: ease-in-out 0.5s;
+}
+.container-fluid .menu button:hover {
+    color: white;
+    background-color: #fe5d89;
+    border: 1px solid #fe5d89;
+}
+.btnew {
+    color: white !important;
+    background-color: #fe5d89 !important;
+    border: 1px solid #fe5d89 !important;
+}
+.btnew:hover {
+    color: #fe5d89 !important;
+    background-color: white !important;
+    border: 1px solid #fe5d89 !important;
+}
+.lia {
+    color: black !important;
+}
+.newstyle {
+    background-color: white;
+    position: fixed;
+    color: black;
+    transition: ease 0.5s;
+    z-index: 9999;
+}
+.anime {
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: .3s;
+}
+.anime-start {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:993px) and (max-width:1199px) {
+    .container .row.cor .col-md-10 .navbar-nav .menu button {
+        padding: 0px 15px;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1400px) {
+    .row.cor .submenu.home {
+        left: 350px;
+    }
+    .row.cor .submenu.blog {
+        right: 470px;
+    }
+}
+@media only screen and (min-width:993px) and (max-width:1024px) {
+    .row.cor .submenu.home {
+        left: 251px;
+    }
+    .row.cor .submenu.blog {
+        position: absolute;
+        top: 80px;
+        right: 230px;
+    }
+}
+
+
+
+
+
+
+/*<div class="container-fluid c2">
+                    <div class="row cor">
+                        <div class="col-md-2">
+                            <div class="logo">
+                                <img src="imagens/logo/sticky_logo_red.png" />
+                            </div>
+                        </div>
+                        <div class="col-md-10">    
+                            <nav class="navbar navbar-expand-lg">
+                    
+                                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                                    <span class="navbar-toggler-icon">Menu</span>
+                                </button>
+                    
+                                <div class="navbar-collapse collapse" id="navbarMenu">
+                                    <div class="navbar-nav">
+                                        <ul class="menu">
+                                            <li>
+                                                <a href="#" data-toggle="collapse" data-target="#home" class="nav-item nav-link">HOME</a>
+                                                
+                                            </li>
+                                            <li><a href="#" class="nav-item nav-link">ABOUT</a></li>
+                                            <li><a href="#" class="nav-item nav-link">SERVICES</a></li>
+                                            <li><a href="#" class="nav-item nav-link">TESTIMONIALS</a></li>
+                                            <li>
+                                                <a href="#" data-toggle="collapse" data-target="#blog" class="nav-item nav-link">BLOG</a>
+                                                
+                                            </li>
+                                            <li><a href="#" class="nav-item nav-link">CONTACT</a></li>
+                                            <button class="btn btn-primary">Get a Quote</button>
+                                        </ul>
+                                        
+                                    </div>
+                                </div> 
+                            </nav>
+                        </div>
+                        <div class="collapse submenu home" id="home">
+                            <a href="./"><div class="submenuitem">Home 1</div></a>
+                            <a href="./"><div class="submenuitem">Home 2</div></a>
+                            <a href="./"><div class="submenuitem">Home 3</div></a>
+                            <a href="./"><div class="submenuitem">Home 4</div></a>
+                            <a href="./"><div class="submenuitem">Home 5</div></a>
+                            <a href="./"><div class="submenuitem">Home 6</div></a>
+                            <a href="./"><div class="submenuitem">Home 7</div></a>
+                        </div>
+                        <div id="blog" class="collapse submenu blog">
+                            <a href="./"><div class="submenuitem">Blog</div></a>
+                            <a href="./"><div class="submenuitem">Single Blog</div></a>
+                        </div>
+                    </div>
+                </div>*/
